@@ -18,7 +18,7 @@ function HelloWorld() {
 	return (
 		<div className="App">
 			<button onClick={() => handleOpenModal()} type="button">
-				Hello
+				Click Me
       </button>
 			<Modal
 				appElement={document.getElementById("app")}
